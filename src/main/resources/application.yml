@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: student
+  datasource:
+    initialization-mode: always
+    generate-unique-name: false
+    platform: h2
+    url: jdbc:h2:mem:mystudentdb
+    driverClassName: org.h2.Driver
+    username: sa
+    password: password
+  h2:
+    console:
+      enabled: true
+server:
+  port: 8090
+

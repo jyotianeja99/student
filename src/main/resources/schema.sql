@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS Student (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    fname VARCHAR(50) NOT NULL,
+    lname VARCHAR(50) NOT NULL,
+    department VARCHAR(50) NOT NULL
+
+);

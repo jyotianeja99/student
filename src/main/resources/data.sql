@@ -1,0 +1,10 @@
+INSERT INTO Student(fname, lname, department) VALUES ('Jyoti','Aneja','Information Technology');
+INSERT INTO Student(fname, lname, department) VALUES ('Varun', 'Kashyap','CSE');
+INSERT INTO Student(fname, lname, department) VALUES ('Tarun', 'Chopra','CSE');
+INSERT INTO Student(fname, lname, department) VALUES ('Mandeep', 'Sharma','CSE');
+INSERT INTO Student(fname, lname, department) VALUES ('Bibek', 'Saini','CSE');
+INSERT INTO Student(fname, lname, department) VALUES ('Vikas', 'Aneja', 'Electronics and Communication');
+INSERT INTO Student(fname, lname, department) VALUES ('Norin','Singla','Information Technology');
+INSERT INTO Student(fname, lname, department) VALUES ('Bhavya','Manuja','CSE');
+INSERT INTO Student(fname, lname, department) VALUES ('Abhishek','Dhiman','Mechanical');
+INSERT INTO Student(fname, lname, department) VALUES ('Lalit','Dhiman','Civil');
