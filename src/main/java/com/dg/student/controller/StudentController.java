@@ -21,6 +21,14 @@ public class StudentController {
         return ResponseEntity.ok(students);
     }
 
+    @GetMapping("/")
+    public ResponseEntity<String> getMessage(){
+        String str = "Hello Jyoti";
+        return ResponseEntity.ok(str);
+    }
+
+
+
     @PostMapping("/add")
     public ResponseEntity<Student> addStudent(@RequestBody Student s){
         Student student = studentService.addStudent(s);
